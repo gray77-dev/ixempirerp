@@ -1,0 +1,8 @@
+
+"starwarsrp"
+{
+	"base" 			"helix"
+	"title" 		"starwarsrp"
+	"author" 		"gray, nebulous"
+	"menusystem"	"1"
+}

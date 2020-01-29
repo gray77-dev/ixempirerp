@@ -1,15 +1,19 @@
-
--- Here is where you can define your own phrases to use with the language system. You can define phrases in different languages
--- by creating a file called sh_<language name>.lua (e.g sh_french.lua) in the languages/ folder.
-
--- You are encouraged to avoid using hardcoded strings when displaying any sort of text on the client. You should instead define
--- these phrases here, and use the L() function to return the text in the proper language. For example, L("serverWelcome") would
--- return a string with the text "Welcome to the server, <name>!" as defined below.
-
--- You can also use formatted strings in phrases. This will make the phrase require additional parameters to display correctly.
--- In the case of serverWelcome, it requires another string which should be the character's name. An example:
--- L("serverWelcome", "John Lua") would return a string with the text "Welcome to the server, John Lua!".
-
 LANGUAGE = {
-	serverWelcome = "Welcome to the server, %s!"
+	fCitizenName = "Citizen",
+	fCitizenDesc = "A regular citizen within the streets.",
+	fCopName = "Civil Protection",
+	fCopDesc = "Protectors of this civil establishment.",
+	fOverwatchName = "Combine Overwatch",
+	fOverwatchDesc = "Soldiers for the Universal Union.",
+	fAdminName = "Administrator",
+	fAdminDesc = "The leader of this city.",
+	-- This is an example of how you can have your schema description be translatable.
+	-- But it's commented because people keep complaining that their description isn't changing.
+	-- So this is commented since it overwrites the SCHEMA.desc
+	--schemaDesc = "Under rule of the Universal Union.",
+	mustBeCP = "You must be in the Civil Protection to do this.",
+	objectives = "Objectives",
+	notCombine = "You must be a member of the Combine to do this.",
+	prioritySet = "You have changed the priority status of %s.",
+	noReqDev = "You do not own a request device."
 }
