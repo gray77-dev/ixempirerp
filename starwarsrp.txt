@@ -1,8 +1,8 @@
 
-"starwarsrp"
+"IX : EmpireRP"
 {
 	"base" 			"helix"
-	"title" 		"starwarsrp"
+	"title" 		"IX : EmpireRP"
 	"author" 		"gray, nebulous"
 	"menusystem"	"1"
 }
