@@ -1,9 +1,9 @@
 -- The shared init file. You'll want to fill out the info for your schema and include any other files that you need.
 
 -- Schema info
-Schema.name = "Empire Roleplay"
-Schema.author = "nebulous and gray"
-Schema.description = "EmpireRP schema by gray for UphoriaGaming."
+Schema.name = "IX : EmpireRP"
+Schema.author = "gray"
+Schema.description = "EmpireRP schema by gray."
 
 -- Additional files that aren't auto-included should be included here. Note that ix.util.Include will take care of properly
 -- using AddCSLuaFile, given that your files have the proper naming scheme.
